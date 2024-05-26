@@ -1,0 +1,334 @@
+body{
+  width: 100%;
+}
+.section {
+  padding-top: 25px;
+}
+.nav-item{
+  padding: 20px;
+}
+#detail{
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background-color: #eff4fd;
+}
+.detail{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8%;
+}
+.detail h1{
+  font-size: 50px;
+  margin-top: 20px;
+  color: #212121;
+}
+span{
+  color: orange;
+}
+.detail h3{
+  color: #555;
+  line-height: 22px;
+}
+.detail a{
+  background-color: #212121;
+  padding: 10px 18px;
+  text-decoration: 0;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.icon{
+  position:absolute;
+  top: 20rem;
+  left: 10rem;
+}
+.icon a{
+color: #212121;
+}
+.fa-brands{
+  font-size: 40px;
+  padding: 15px;
+
+}
+
+.square {
+  height: 400px;
+  width: 400px;
+  background-color: orange;
+  position: absolute;
+  right: 40px;
+  margin: 10px ;
+  border-radius: 50%;
+}
+.image img{
+  position: absolute;
+
+  height: 420px;
+  width: 420px;
+  position: absolute;
+  right: -75px;
+  bottom: 15px;
+}
+.image{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 70%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s , left 1s; 
+}
+
+.image:hover .square{
+  bottom: 40px;
+}
+.image:hover {
+  left: 45%;
+}
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+  background-color: #eff4fd;
+  color: black;
+  width: 100%;
+} 
+.about img{
+  width: 35%;
+}
+.about p{
+  font-weight:bold;
+  text-align: left;
+  padding: 15px;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eff4fd;
+  gap: 20px;
+}
+.row {
+  display: flex;
+  flex-direction: row; 
+  gap: 20px; 
+  background-color:#eff4fd;
+  justify-content: center;
+  width: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  max-width: 350px;
+  height: auto;
+  padding: 5px;
+  transition: transform 0.3s ease; 
+}
+.card img{
+  width:100%; 
+  height:200px;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+
+.skill{
+  display: flex;
+  flex-direction: row;
+  /* gap: 35vh; */
+  background-color: #eff4fd;
+}
+
+.footer {
+  background-color: #212121;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: auto; 
+  margin-right: 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.contact-info {
+  display: flex;
+  text-align: right;
+  margin: 10px;
+}
+
+.community {
+  display: flex;
+  gap: 10px;
+}
+
+.hov {
+  margin-right: 10px;
+}
+.hov .fa-solid{
+  font-size: 20px;
+  padding-left: 15px ;
+}
+
+.hov a{
+  color: white;
+}
+.hov:hover a{
+  color: rgb(88, 80, 80);
+
+}
+.location-map {
+  text-align: right;
+}
+
+.location-map iframe {
+  border: 0;
+}
+@media screen and (max-width: 426px) {
+  .image img {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+  .square {
+    height: 190px;
+    width: 190px;
+    background-color: orange;
+    position: absolute;
+    right: 0px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.detail h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #212121;
+}
+.detail h3 {
+  color: #555;
+  line-height: 15px;
+  font-size: 11px;
+}
+.detail a {
+  background-color: #212121;
+  padding: 10px 10px;
+  text-decoration: 0;
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 15px 0px 0px;
+  border-radius: 5px;
+}
+#detail {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 330px;
+  background-color: #eff4fd;
+}
+.icon {
+  position: absolute;
+  top: 15rem;
+  left: 2rem;
+}
+.fa-brands{
+  font-size: 25px;
+  padding: 15px;
+
+}
+.about img {
+  width: 45%;
+  height: 250px;
+}
+.about p {
+  font-weight: bold;
+  text-align: left;
+  padding: 15px;
+  font-size: 10px;
+}
+.h1, h1 {
+  font-size: 1.5rem;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  background-color: #eff4fd;
+  justify-content: center;
+  width: 100%;
+}
+.h3, h3 {
+  font-size: 20px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 10px;
+}
+.h2, h2 {
+  font-size: 20px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  flex-direction: column;
+}
+.h4, h4 {
+  font-size: 20px;
+}
+.community {
+  display: flex;
+  gap: 0px;
+}
+.hov .fa-solid{
+  font-size: 15px;
+  padding-left: 15px ;
+}
+}
+
+
+
+
