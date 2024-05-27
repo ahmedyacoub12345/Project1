@@ -1,8 +1,10 @@
 body{
   width: 100%;
+  background-color: #eff4fd;
 }
 .section {
-  padding-top: 25px;
+  margin-bottom: 8rem;
+  background-color: #eff4fd;
 }
 .nav-item{
   padding: 20px;
